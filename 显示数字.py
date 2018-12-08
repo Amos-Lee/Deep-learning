@@ -5,5 +5,5 @@ digits = load_digits()#载入数据集
 print(digits.data.shape)
 
 pl.gray()#灰度化图片
-pl.matshow(digits.images[1])
+pl.matshow(digits.images[2])
 pl.show()
